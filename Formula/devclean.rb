@@ -11,7 +11,7 @@ class Devclean < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/sebavidal10/devclean/releases/download/v0.1.0/devclean_0.1.0_darwin_amd64.tar.gz"
-    sha256 "f892ce66e9c4d101176587448a655cf466fa083214849e2b3e53ac32ac2e924a"
+    sha256 "4693303fefa8b69ac82a39c10dbe5f0efa726b7154d9fd189ce1e5d63ae1c2bc"
 
     define_method(:install) do
       bin.install "devclean"
@@ -19,7 +19,7 @@ class Devclean < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/sebavidal10/devclean/releases/download/v0.1.0/devclean_0.1.0_darwin_arm64.tar.gz"
-    sha256 "31ae9c4af78b190fa312e6b2082243d7ed6197741145e5b80c868dc2a68f393e"
+    sha256 "119c73830a1baf5c7d9f51fada6f5499f1d057e06b6d60cf99200153f84f0430"
 
     define_method(:install) do
       bin.install "devclean"
