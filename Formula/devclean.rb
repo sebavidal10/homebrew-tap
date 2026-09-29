@@ -5,21 +5,21 @@
 class Devclean < Formula
   desc "Intelligent, zero-footgun disk cleanup CLI for macOS developers"
   homepage "https://github.com/sebavidal10/devclean"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/sebavidal10/devclean/releases/download/v0.3.0/devclean_0.3.0_darwin_amd64.tar.gz"
-    sha256 "eb07704a1233cf838886b12294aa549dce023f0a2a6af93416981f68aad0ca3e"
+    url "https://github.com/sebavidal10/devclean/releases/download/v0.3.1/devclean_0.3.1_darwin_amd64.tar.gz"
+    sha256 "18d8e2457fdf2c6c625f8f8b9696ca744a429b97da241b3500f5e5524a30479c"
 
     def install
       bin.install "devclean"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/sebavidal10/devclean/releases/download/v0.3.0/devclean_0.3.0_darwin_arm64.tar.gz"
-    sha256 "7de880ba0dfd61643d8f3a6a103a31e192fadca4d311570e62ba9328c0468fca"
+    url "https://github.com/sebavidal10/devclean/releases/download/v0.3.1/devclean_0.3.1_darwin_arm64.tar.gz"
+    sha256 "f14eea933f61dbb08bde728a244b76007bef967e2b3666099d33293b61cb8661"
 
     def install
       bin.install "devclean"
